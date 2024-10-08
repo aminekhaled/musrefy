@@ -1,0 +1,782 @@
+body {
+    width: 100%;
+    height: 2500px;
+}
+.main {
+    width: 100%;
+    height: 2500px;
+}
+
+nav ul {
+    li .navigation-link {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/images/home-background-image.png');
+    background-size: cover;
+    .overlay {
+        width: 100%;
+        height: 100%;
+        .hero {
+            width: 100%;
+            height: calc(100vh - 200px);
+            h1 {
+                line-height: 1.8;
+            }
+        }
+    }
+}
+
+.statistic-number {
+    padding-right: 40px;
+}
+
+.bar-effect::before {
+    content: "";
+    width: 2px;
+    height: 65%;
+    background-color: $main-color;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+.currencies-section {
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    .currencies-prices .row {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+.mobile-app-image {
+    width: 45%;
+}
+
+
+.calculator .calculator-value {
+    border: 1.5px solid $main-color;
+    border-radius: 3px;
+    background: #F4F6F8;
+    input[type=text] {
+        color: $main-color;
+        font-weight: 700;
+        text-align: center;
+        font-size: 18px;
+        background: #F4F6F8;
+    }
+
+    span {
+        border-left: 1px solid $main-color;
+    }
+}
+
+.main-slider-next, .main-slider-prev {
+    top: 50% !important;
+    background-color: #fff;
+    color: #001E61;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main-slider-next {
+    left: 28% !important;
+    text-align: center;
+}
+.main-slider-prev {
+    right: 28% !important;
+    text-align: center;
+}
+
+.main-slider-next::after, .main-slider-prev::after {
+    font-size: 22px !important;
+    font-weight: 700;
+} 
+
+
+.custom-swiper-button-next, .custom-swiper-button-prev {
+    top: calc(100% - 32px) !important;
+    background-color: #d5d8db4a;
+    color: #001E61;
+    padding: 20px 22px;
+    border-radius: 4px;
+}
+
+.custom-swiper-button-next::after, .custom-swiper-button-prev::after {
+    font-size: 20px !important;
+    font-weight: 800;
+} 
+
+
+.custom-swiper-button-next {
+    right: 7% !important;
+    text-align: center;
+}
+.custom-swiper-button-prev {
+    right: 2% !important;
+    text-align: center;
+}
+.custom-arrow-right::after, .custom-arrow-left::after {
+    font-size: 30px;
+    font-weight: 700;
+} 
+.custom-arrow-left {
+    left: 0% !important;
+}
+
+.custom-arrow-right {
+    right: 0% !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: $main-color !important;
+    width: 20px;
+    border-radius: 10px !important;
+}
+
+.show-more {
+    text-align: end;
+}
+
+.app-qr-code {
+    width: 165px;
+    height: 70%;
+    background: $vertical-sky-blue-gradient-color;
+    right: 13px;
+    bottom: 65px;
+    z-index: 0;
+    border-radius: 0  0 12px 12px;
+    border-bottom: solid 3px #1F57A2;
+
+}
+
+.vertical-text {
+    position: absolute;
+    bottom: 57px;
+    right: -7px;
+    transform: rotate(-90deg);
+}
+
+.custom-dropdown {
+    top: 100%;
+    right: 0;
+}
+
+
+.banks-card {
+    width: 60%;
+}
+
+.bank-image {
+    padding: 16px;
+    img {
+        display: block;
+        text-align: center;
+        width: 60%;
+    }
+}
+
+.show-all-banks {
+    padding: 16px;
+}
+
+.partner-card {
+    padding: 40px 16px 12px;
+    border-radius: 18px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 4px 0px #00000025;
+    .partner-image {
+        position: absolute;
+        top: -55%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+.bank-swiper {
+    height: 370px;
+}
+
+.card-bank-image {
+    width: 100%;
+}
+
+.stay-informed-card-title {
+    line-height: 1.5;
+}
+
+.bank-small-image-container {
+    height: 62px;
+}
+
+.bank-small-image {
+    max-width: 138px;
+}
+
+.currency-slider-items {
+    margin-right: 1rem;
+}
+
+.collection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection .content{
+    height: 28rem;
+    width: 25rem;
+    background-color: #fff;
+    border: .2rem solid rgba(255,255,255,.1);
+    border-radius: .7rem;
+    transition: 0.3s ease-in;
+}
+
+.vertical-slider-item {
+    padding: 1rem;
+}
+
+.apps-infos {
+    margin-right: 30%;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    .bar-effect::before {
+        left: 10%;
+    }
+
+    .currencies-section {
+    
+        .currencies-prices .row {
+            width: 90%;
+        }
+    }
+
+    .bank-image {
+        img {
+            width: 70%;
+        }
+    }
+
+    .partner-card {
+        padding: 40px 10px 12px;
+        .partner-image {
+            top: -35%;
+        }
+    }
+    
+    .bank-swiper {
+        height: 340px;
+    }
+
+    .star-icon {
+        width: 10px;
+        height: 11px;
+    }
+    .bank-name {
+        font-size: 11px;
+    }
+
+    .stay-informed-card-title {
+        font-size: 16px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .currencies-section {
+        .currencies-row {
+            justify-content: center;
+            .text-col {
+                text-align: center;
+                .currencies-text {
+                    margin-bottom: 40px;
+                    h2 {
+                        font-size: 38px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .currencies-prices .col-12 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-app-image {
+        width: 80%;
+    }
+
+    .navigation-link {
+        font-size: 13px;
+    }
+    .statistic-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .statistic-number {
+        font-size: 38px;
+    }
+    .statistic-text {
+        font-size: 24px;
+    }
+    .statistic-card {
+        margin-bottom: 40px;
+    }
+
+    .bar-effect::before {
+        top: 40%;
+        height: 50%;
+    }
+
+    .responsive-navigation {
+        flex-direction: column;
+    }
+    .navigation-title {
+        margin-bottom: 20px;
+    }
+    .navigation-title, .navigation-nav {
+        justify-content: center !important;
+    }
+
+    .diffrent-on-mobile {
+        ul {
+            font-size: 13px;
+        }        
+    }
+
+    .show-more {
+        text-align: center;
+    }
+
+    .partner-card {
+        .partner-image {
+            top: -48%;
+        }
+    }
+
+    .bank-swiper {
+        height: 360px;
+    }
+
+    // .card-bank-image {
+    //     width: 80%;
+    // }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .bar-effect:nth-child(even)::before {
+        display: none;
+    }
+
+    .top-nav {
+        justify-content: center !important;
+        nav {
+            display: none;
+        }
+    }
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-app-image {
+        width: 80%;
+    }
+
+    .navbar-toggler {
+        display: block !important;
+    }
+
+    // .custom-swiper-button-next {
+    //     left: 35% !important;
+    // }
+    // .custom-swiper-button-prev {
+    //     right: 35% !important;
+    // }
+
+    .opinion-text {
+        font-size: 14px;
+    }
+
+    .banks-card {
+        width: 70%;
+    }
+
+    .bank-small-image-container {
+        height: auto;
+    }
+
+    .partner-card {
+        padding: 40px 10px 12px;
+        box-shadow: 0px 2px 4px 0px #00000040;
+        .partner-image {
+            position: absolute;
+            top: -60%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        h6 {
+            font-size: 18px;
+        }
+
+    }
+
+    .bank-swiper {
+        height: 382px;
+    }
+
+    .stay-informed-card-title {
+        font-size: 18px;
+    }
+
+    .prevent-container-on-small {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .apps-infos {
+        margin-right: 50%;
+        h6 {
+            font-size: 12px !important;
+        }
+        img {
+            width: 80px !important;
+        }
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    header {
+        height: 100px !important;
+    }
+    .top-nav {
+        justify-content: space-between !important;
+        height: auto !important;
+        .logo {
+            padding-top: 25px;
+            img {
+                width: 180px;
+            }
+        }
+    }
+    .hero .hero-text {
+        font-size: 28px !important;
+    }
+
+    .currencies-prices .row {
+        width: 100% !important;
+    }
+    .prevent-small-screens {
+        display: none !important;
+    }
+    .diffrent-on-mobile {
+        text-align: center;
+        p {
+            margin-bottom: 2rem !important;
+        }
+        ul {
+            font-size: 9px;
+        }
+        .apps-qr {
+            justify-content: center;
+        }
+    }
+
+    .custom-swiper-button-next, .custom-swiper-button-prev {
+        top: 94% !important;
+        padding: 20px;
+    }    
+    
+    .custom-swiper-button-next {
+        right: 25% !important;
+    }
+    .custom-swiper-button-prev {
+        right: 5% !important;
+    }
+
+    .bank-image {
+        padding: 10px;
+        img {
+            width: 75%;
+        }
+    }
+
+    .show-all-banks  {
+        padding: 4px;
+        span {
+            font-size: 8px;
+        }
+    }
+
+    .show-all-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .opinion-text {
+        font-size: 12px;
+    }
+
+    .opinion-holder-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .opinion-holder {
+        font-size: 11px;
+    }
+    .opinion-holder-job {
+        font-size: 10px;
+    }
+
+    .partner-card {
+        padding: 40px 16px 12px;
+        border-radius: 18px;
+        background: #FAFAFA;
+        box-shadow: 0px 2px 4px 0px #00000025;
+        .partner-image {
+            position: absolute;
+            top: -35%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        h6 {
+            font-size: 14px;
+        }
+    }
+
+    .bank-swiper {
+        height: 330px;
+    }
+
+    .currency-slider-items {
+        margin-right: 0;
+    }
+
+    .prevent-container-on-small {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .vertical-center-on-mobile {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+
+
+    
+    
+
+
+}
+
+@media only screen and (max-width: 575px) {
+    
+    .bar-effect::before {
+        display: none;
+    }
+    .statistic-card {
+        width: 50%;
+        margin: 20px auto;
+    }
+    .currency-span {
+        font-size: 12px !important;
+    }
+
+    .calculator .calculator-value {
+        input[type=text] {
+            font-size: 13px !important;
+        }
+        span {
+            font-size: 12px !important;
+            line-height: 2.3;
+        }
+    }
+
+    .calculator-title {
+        font-size: 15px;
+    }
+
+    .limit-text {
+        font-size: 13px;
+    }
+
+    .inspirational-swiper {
+        padding-bottom: 40px !important;
+        height: 440px !important;
+    }
+
+    .banks-card {
+        width: 100%;
+    }
+
+    .bank-image {
+        padding: 4px;
+        img {
+            width: 90%;
+        }
+    }
+
+    .partner-card {
+        padding: 40px 10px 12px;
+        box-shadow: 0px 2px 4px 0px #00000040;
+        .partner-image {
+            width: 30%;
+            position: absolute;
+            top: -40%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        h6 {
+            font-size: 18px;
+        }
+        
+    }
+
+    .prevent-container-on-small {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .vertical-slider-item {
+        padding: 1rem 0.2rem;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .star-icon {
+        width: 14px;
+        height: 14px;
+    }
+    .bank-name {
+        font-size: 14px;
+    }
+
+    .bank-swiper {
+        height: 480px;
+    }
+
+    .collection .content{
+        height: 30.5rem;
+        
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+    .bank-swiper {
+        height: 450px;
+    }
+
+
+}
+@media only screen and (max-width: 400px) {
+
+    .bank-swiper {
+        height: 400px;
+    }
+
+
+}
+
+
+
+
+
+.content img{
+    width: 100%;
+}
+
+.content button {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11111;
+}
+
+.text-content p{
+    max-width: 22rem;
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content.hide {
+    height: 19rem !important;
+}
+
+.hide .text-content, .hide button {
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.selected-services-item {
+    border-bottom: solid 3px $main-color;
+}
+
+.services-head {
+    padding: 35px 0;
+    border-bottom: 0.5px #001f6196 solid;
+}
+
+.dashed-border-bottom {
+    border-bottom: 1px dashed #79ADEA;
+}
+
+.service-card button {
+    width: 150px;
+    bottom: -20px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.btn:hover {
+    background-color: $main-color !important;
+    color: #fff !important;
+    border: inherit !important;
+    box-shadow: none !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #001f6141 !important;
+}
+
+
+
+

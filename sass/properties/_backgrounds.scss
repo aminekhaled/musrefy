@@ -1,0 +1,42 @@
+.bg-gradient-color {
+    background: linear-gradient(90deg, rgba(51, 131, 130, 0.9) 0%, rgba(85, 180, 165, 0.9) 100%);
+}
+
+.home-gradient-bg-color {
+    background: $home-gradient-bg-color;
+}
+
+.main-bg-color {
+    background-color: $main-color;
+}
+
+.main-dark-bg-color {
+    background-color: $main-color;
+}
+
+
+.country-card-bg-color {
+    background-color: #3383820D;
+}
+
+.transparent-white-color {
+    background: $transparent-white-color;
+}
+
+.transparent-white-color-opc-10 {
+    background: $transparent-white-color-opc-10;
+}
+
+.sky-blue-bg-color {
+    background: $sky-blue-color;
+}
+
+
+.horizontal-gradient-main-color {
+    background: $horizontal-gradient-main-color;
+}
+
+.card-gradient-color {
+    background: linear-gradient(180deg, rgba(0, 30, 97, 0.24) 40.73%, rgba(0, 30, 97, 0.8) 100%);
+}
+
